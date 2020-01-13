@@ -6,7 +6,7 @@ const http = require('https');
 const request = require('request');
 
 const accessType = 'Bearer';
-const accessToken = process.env.LINE_CHANNEL_ACCESS_TOKEN;
+const accessToken = process.env.CHANNEL_ACCESS_TOKEN;
 const LINE_HEADER = {
   "Content-Type": "application/json",
   "Authorization": accessType + accessToken
